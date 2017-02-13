@@ -2,11 +2,11 @@
     'use strict';
 
     if (typeof define === 'function' && define.amd) {
-        define(['mimefuncs'], function(mimefuncs) {
+        define(['emailjs-mime-codec'], function(mimefuncs) {
             return factory(mimefuncs);
         });
     } else if (typeof exports === 'object') {
-        module.exports = factory(require('mimefuncs'));
+        module.exports = factory(require('emailjs-mime-codec'));
     } else {
         root.BrowserSMTP = factory(root.mimefuncs);
     }

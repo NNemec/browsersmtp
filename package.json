@@ -1,8 +1,9 @@
 {
-  "name": "browsersmtp",
+  "name": "wo-browsersmtp",
   "version": "0.1.0",
   "description": "SMTP server in the browser",
   "main": "src/browsersmtp.js",
+  "repository": "NNemec/wo-browsersmtp",
   "scripts": {
     "test": "grunt"
   },
